@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENGKANTO</title>
+
+    <STYLE>
+        body{
+
+            /*background-image: url("bg2.JPG");*/
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-color: black;
+        }
+
+        button{
+            margin:20px;
+            color: black;
+            background-color: green;
+            padding: 25px;
+            border-radius: 10px;
+            font-size: 85%;
+            cursor: pointer;
+            
+
+        }
+
+       button:hover{
+        color: aquamarine;
+        transition: 1;
+       }
+
+        
+
+    </STYLE>
+</head>
+<body>
+    
+    
+    <center>
+        <div class="LoL">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <button id="button" onclick="changebg()"><b>THANK YOU</b></button>
+        <br>
+        
+        <audio controls loop id="rip" style="display: none;">
+            <source src="lolers.mp3" type="audio/mpeg">
+        </audio>
+
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+       <!-- <button id="jp" style="display: none;">NEXT</button> --> 
+    </center>
+
+    <script>
+        function changebg(){
+            document.body.style.backgroundImage = "url('bg2.JPG')" ;
+            document.querySelector(".LoL").style.display = "none"
+            document.getElementById("rip").play();
+            mejia();
+
+        }
+
+       // function mejia(){
+            //document.getElementById("jp").style.display = "block";
+       // }
+        
+    </script>
+</body>
+</html>

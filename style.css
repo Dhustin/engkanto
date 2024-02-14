@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  
+  background-image:url('bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+
+h1{
+  text-align: center;
+  color: black;
+  font-size: 350%;
+  
+}
+
+p{
+  font-style: bold;
+  font-size: 45px;
+  text-align: center;
+  color: black;
+}
+
+button{
+  color: yellowgreen;
+  background-color: blue;
+  border-radius: 10px;
+  font-size: 30px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  padding: 25px;
+  
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+button:hover{
+  background-color: yellow;
+  transition: 0.8:
+  
+
+}
+
+div{
+  text-align: center;
+  height: 90%;
+  width: 85%;
+  background-color: transparent;
+}
